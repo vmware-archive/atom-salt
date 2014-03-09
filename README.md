@@ -13,9 +13,10 @@ pull request to add snippets, make grammar tweaks, etc.
 
 ## Changelog
 
+- 0.1.0 - `#!py` DSL recognition (open as python file, rather than YAML/jinja)
+
 - 0.0.1 - Basic JINJA / YAML template support
 
 ## TODO
 
-- `#!py` DSL recognition (open as python file, rather than YAML/jinja)
 - Open salt-doc command.
