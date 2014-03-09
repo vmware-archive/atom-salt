@@ -1,3 +1,7 @@
+# Salt-stack
+
+Forked from YAML library. Not sure if this is there is a way to extend a package.
+
 # YAML language support in Atom
 
 Adds syntax highlighting to YAML files in Atom.

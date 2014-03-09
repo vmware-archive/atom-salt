@@ -1,7 +1,7 @@
 {
-  "name": "language-yaml",
+  "name": "language-salt",
   "version": "0.6.0",
-  "description": "YAML language support in Atom",
+  "description": "Salt-stack language support in Atom",
   "engines": {
     "atom": "*",
     "node": "*"
