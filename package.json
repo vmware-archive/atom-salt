@@ -1,6 +1,6 @@
 {
   "name": "atom-salt",
-  "version": "0.6.0",
+  "version": "0.0.1",
   "description": "Salt-stack support in Atom",
   "engines": {
     "atom": "*",
