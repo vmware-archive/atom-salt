@@ -1,18 +1,18 @@
 {
-  "name": "language-salt",
+  "name": "atom-salt",
   "version": "0.6.0",
-  "description": "Salt-stack language support in Atom",
+  "description": "Salt-stack support in Atom",
   "engines": {
     "atom": "*",
     "node": "*"
   },
-  "homepage": "http://atom.github.io/language-yaml",
+  "homepage": "https://github.com/timcharper/atom-salt",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/language-yaml.git"
+    "url": "https://github.com/timcharper/atom-yaml.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atom/language-yaml/issues"
+    "url": "https://github.com/timcharper/atom-salt/issues"
   }
 }
