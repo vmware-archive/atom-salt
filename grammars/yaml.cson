@@ -1,6 +1,5 @@
-'fileTypes': [
-  'sls'
-]
+'scopeName': 'source.yaml.salt'
+'fileTypes': [ 'sls' ]
 'name': 'sls-yaml'
 'patterns': [
   {
@@ -274,4 +273,3 @@
   'escaped_char':
     'match': '\\\\.'
     'name': 'constant.character.escape.yaml'
-'scopeName': 'source.sls'

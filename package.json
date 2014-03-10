@@ -14,5 +14,7 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/timcharper/atom-salt/issues"
-  }
+  },
+  "main": "./lib/salt",
+  "activationEvents": ["salt:docs"]
 }
