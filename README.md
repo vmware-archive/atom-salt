@@ -4,7 +4,7 @@
 
 Forked from YAML library.
 
-Adds syntax highlighting to SLS files in Atom.
+Adds syntax highlighting to SLS files in the Atom text editor (https://atom.io/).
 
 Forked from the Atom package [language-yaml](http://atom.github.io/language-yaml).
 
