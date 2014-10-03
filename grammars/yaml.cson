@@ -3,10 +3,7 @@
 'name': 'sls-yaml'
 'patterns': [
   {
-    'include': '#jinja-control'
-  }
-  {
-    'include': '#jinja-value'
+    'include': 'source.jinja'
   }
   {
     'begin': '^(\\s*)(?:(-)|(?:(-\\s*)?(\\w+\\s*(:))))\\s*(\\||>)'
@@ -23,10 +20,7 @@
     'name': 'string.unquoted.block.yaml'
     'patterns': [
       {
-        'include': '#jinja-control'
-      }
-      {
-        'include': '#jinja-value'
+        'include': 'source.jinja'
       }
     ]
   }
@@ -118,10 +112,7 @@
         'include': '#escaped_char'
       }
       {
-        'include': '#jinja-control'
-      }
-      {
-        'include': '#jinja-value'
+        'include': 'source.jinja'
       }
     ]
   }
@@ -140,10 +131,7 @@
         'include': '#escaped_char'
       }
       {
-        'include': '#jinja-control'
-      }
-      {
-        'include': '#jinja-value'
+        'include': 'source.jinja'
       }
     ]
   }
@@ -162,7 +150,7 @@
         'include': '#escaped_char'
       }
       {
-        'include': '#jinja-control'
+        'include': 'source.jinja'
       }
     ]
   }
@@ -220,56 +208,6 @@
   }
 ]
 'repository':
-  'jinja-value':
-    'begin': '\\{\\{(?!\\})'
-    'beginCaptures':
-      '0':
-        'name': 'punctuation.definition.embedded.begin.jinja-value'
-    'contentName': 'source.python'
-    'end': '\\}\\}'
-    'endCaptures':
-      '0':
-        'name': 'punctuation.definition.embedded.end.jinja-value'
-      # '1':
-      #   'name': 'source.ruby.rails'
-    'name': 'meta.embedded.line.jinja'
-    'patterns': [
-      {
-        'captures':
-          '1':
-            'name': 'punctuation.definition.comment.jinja-value'
-        'match': '(#).*?(?=%>)'
-        'name': 'comment.line.number-sign.jinja-value'
-      }
-      {
-        'include': 'source.python'
-      }
-    ]
-  'jinja-control':
-    'begin': '\\{%+(?!>)=?'
-    'beginCaptures':
-      '0':
-        'name': 'punctuation.definition.embedded.begin.jinja'
-    'contentName': 'source.python'
-    'end': '(%)\\}'
-    'endCaptures':
-      '0':
-        'name': 'punctuation.definition.embedded.end.jinja'
-      # '1':
-      #   'name': 'source.ruby.rails'
-    'name': 'meta.embedded.line.jinja'
-    'patterns': [
-      {
-        'captures':
-          '1':
-            'name': 'punctuation.definition.comment.jinja'
-        'match': '(#).*?(?=%>)'
-        'name': 'comment.line.number-sign.jinja'
-      }
-      {
-        'include': 'source.python'
-      }
-    ]
   'escaped_char':
     'match': '\\\\.'
     'name': 'constant.character.escape.yaml'
