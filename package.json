@@ -1,20 +1,19 @@
 {
   "name": "atom-salt",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Salt-stack support in Atom",
   "engines": {
     "atom": "*",
     "node": "*"
   },
-  "homepage": "https://github.com/timcharper/atom-salt",
+  "homepage": "https://github.com/saltstack/atom-salt",
   "repository": {
     "type": "git",
-    "url": "https://github.com/timcharper/atom-yaml.git"
+    "url": "https://github.com/saltstack/atom-yaml.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timcharper/atom-salt/issues"
+    "url": "https://github.com/saltstack/atom-salt/issues"
   },
-  "main": "./lib/salt",
   "activationEvents": ["salt:docs"]
 }
