@@ -15,5 +15,7 @@
   "bugs": {
     "url": "https://github.com/saltstack/atom-salt/issues"
   },
-  "activationEvents": ["salt:docs"]
+  "activationCommands": {
+    "atom-text-editor": ["salt:docs"]
+  }
 }
