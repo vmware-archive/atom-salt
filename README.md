@@ -13,6 +13,8 @@ pull request to add snippets, make grammar tweaks, etc.
 
 ## Changelog
 
+- 0.3.0 - Atom 1.0!
+
 - 0.2.0 - Open salt-doc command.
 
 - 0.1.0 - `#!py` DSL recognition (open as python file, rather than YAML/jinja)
