@@ -1,6 +1,6 @@
 {
   "name": "atom-salt",
-  "version": "0.2.1",
+  "version": "0.3.1",
   "description": "Salt-stack support in Atom",
   "engines": {
     "atom": "*",
@@ -15,7 +15,8 @@
   "bugs": {
     "url": "https://github.com/saltstack/atom-salt/issues"
   },
+  "main": "./lib/salt",
   "activationCommands": {
-    "atom-text-editor": ["salt:docs"]
+    "atom-workspace": "salt:docs"
   }
 }
